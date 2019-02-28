@@ -17,7 +17,7 @@ public class BigHouse extends Canvas
    public BigHouse()  //constructor - sets up the class
    {
       setSize(800,600);
-      setBackground(Color.WHITE);
+      setBackground(Color.GREEN);
       setVisible(true);
       
    }
@@ -40,7 +40,17 @@ public class BigHouse extends Canvas
       
       window.setColor(Color.RED);
       
-      window.fillRect(100,100,500,100);
+      window.fillRect(100,100,600,100);
+      
+      window.setColor(Color.WHITE);
+      
+      window.fillRect(250,250,100,100);
+      
+      window.fillRect(450,250,100,100);
+      
+      window.setColor(Color.DARK_GRAY);
+      
+      window.fillRect(350,400,100,300);
 
    }
 }
